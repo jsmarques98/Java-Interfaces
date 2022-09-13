@@ -8,9 +8,11 @@ public class RentalService {
     private Double pricePerDay;
     private Double pricePerHour;
 
-    private BrazilTaxService taxService;
+    // private BrazilTaxService taxService;  // ma pratica pq o nosso RentalService depende smp do Brazil tax service, se tivessemos outro pais teriamos que alterar muitas classes
 
-    public RentalService(Double pricePerDay, Double pricePerHour, BrazilTaxService taxService) {
+    private TaxService taxService;
+
+    public RentalService(Double pricePerDay, Double pricePerHour, TaxService taxService) {
         this.pricePerDay = pricePerDay;
         this.pricePerHour = pricePerHour;
         this.taxService = taxService;
