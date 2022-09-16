@@ -38,9 +38,15 @@ public class Program {
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             String name = br.readLine(); while (name != null) {
                 list.add(name);
-                name = br.readLine(); }
-            Collections.sort(list); for (String s : list) {
-                System.out.println(s); }
-        } catch (IOException e) { System.out.println("Error: " + e.getMessage());
-        } }
+                name = br.readLine();
+            }
+            Collections.sort(list);
+            for (String s : list) {
+                System.out.println(s);
+            }
+        }
+        catch (IOException e) {
+              System.out.println("Error: " + e.getMessage());
+        }
+    }
 }*/

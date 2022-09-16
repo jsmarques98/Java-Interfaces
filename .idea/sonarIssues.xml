@@ -8,6 +8,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/application/defaultmethods/Problem.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/application/defaultmethods/Program.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/application/diamondproblem/Program.java">
           <value>
             <set />
@@ -179,6 +189,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/services/RentalService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/services/defaultmethods/BrazilInterestService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/services/defaultmethods/InterestService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/services/defaultmethods/UsaInterestService.java">
           <value>
             <set />
           </value>

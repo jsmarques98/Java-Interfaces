@@ -19,9 +19,12 @@ import java.util.Scanner;
         String path = "/Users/joaomarques/Desktop/InterfacesPractice/nameSalary.csv";
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-            String employeeCsv = br.readLine(); while (employeeCsv != null) {
+            String employeeCsv = br.readLine();
+
+            while (employeeCsv != null) {
                 String[] fields = employeeCsv.split(",");
-                list.add(new Employee(fields[0], Double.parseDouble(fields[1]))); employeeCsv = br.readLine();
+                list.add(new Employee(fields[0], Double.parseDouble(fields[1])));
+                employeeCsv = br.readLine();
             }
             Collections.sort(list); for (Employee emp : list) {
                 System.out.println(emp.getName() + ", " + emp.getSalary()); }
